@@ -1,6 +1,6 @@
 // hello
 
-function hello()
+function genBatFile()
 {
   alert('Hello world!');
 }

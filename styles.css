@@ -4,14 +4,68 @@
   box-sizing: border-box;
 }
 
-body
-{
-  font-family: Arial;
-  margin-bottom: 60px;
+.center-text {
+  text-align: center;
 }
 
-.round-button
-{
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* app block */
+label {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+label:hover {
+  background-color: #e0e0e0; /* Slightly darker shade */
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.app-section {
+  margin: 10px;
+  width: 235px;
+}
+
+.app-label {
+  display: block;
+  padding-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* app block ^*/
+
+
+.round-button {
   width: 181px;
   height: 48px;
   background-color: #1bd96a;
@@ -25,12 +79,54 @@ body
   display: inline-block;
 }
 
-.round-button:hover
-{
+.round-button:hover {
   background-color: #22ff84;
 }
 
 
+/* From Uiverse.io by JaydipPrajapati1910 */ 
+.clear {
+  clear: both;
+}
+
+.checkBox {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 3px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 2px black;
+}
+
+.checkBox div {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  top: -52px;
+  left: -52px;
+  position: absolute;
+  transform: rotateZ(45deg);
+  z-index: 100;
+}
+
+.checkBox input[type=checkbox]:checked + div {
+  left: -10px;
+  top: -10px;
+}
+
+.checkBox input[type=checkbox] {
+  position: absolute;
+  left: 50px;
+  visibility: hidden;
+}
+
+.transition {
+  transition: 300ms ease;
+}
+/* From Uiverse.io by Nawsome ^*/ 
 
 
 
@@ -41,10 +137,7 @@ body
 
 
 
-
-
-.footer
-{
+.footer {
   background: linear-gradient(to right, #1bd96a, #023919);
   color: #fff; /* text */
   padding: 20px 0;
@@ -54,28 +147,24 @@ body
   text-align: center;
 }
 
-.footer .container
-{
+.footer .body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer .list
-{
+.footer .list {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.footer .footer-link
-{
+.footer .footer-link {
   color: #fff;
   text-decoration: none;
   font-size: 18;
 }
 
-.footer .footer-link:hover
-{
+.footer .footer-link:hover {
   text-decoration: underline;
 }
