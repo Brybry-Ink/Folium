@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/user-attachments/assets/86bfa2d4-3a27-4061-bd91-ebe75d895024" alt= Folium Logo width="150"</p>
+<p align="center"><img src="./icons/leaf.png" alt= Folium Logo width="150"</p>
 
 <h1 align="center">Folium - Install Multiple Apps at Once</h1>
 
