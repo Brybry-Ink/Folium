@@ -1,4 +1,4 @@
-<p align="center"><img src="./icons/leaf.png" alt= Folium Logo width="150"</p>
+<p align="center"> <a href="https://brybry-ink.github.io/Folium/"> <img src="./icons/leaf.png" alt= Folium Logo width="150"</p>
 
 <h1 align="center">Folium - Install Multiple Apps at Once</h1>
 
@@ -7,3 +7,4 @@
 <hr>
 
 ## How to Access?
+[Folium](https://brybry-ink.github.io/Folium/)
