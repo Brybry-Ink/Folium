@@ -8,3 +8,6 @@
 
 ## How to Access?
 [Folium](https://brybry-ink.github.io/Folium/)
+
+## Built With
+- [WinGet](https://github.com/microsoft/winget-cli) - Package manager used.
