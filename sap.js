@@ -36,5 +36,8 @@ function genBatchFile()
   document.body.appendChild(downloadLink);
   downloadLink.click();
   document.body.removeChild(downloadLink);//deletes temporary info
+
+
+  selectedCheckBoxes.forEach(cb => cb.checked = false);
 }
 
