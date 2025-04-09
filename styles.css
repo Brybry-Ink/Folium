@@ -4,6 +4,43 @@
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 10%;
+}
+
+.header-link {
+  display: flex;
+  text-decoration: none;
+  color: #1a202c;
+}
+
+.header-logo {
+  width: 40px; 
+  height: 40px; 
+  margin-top: 8px;
+  margin-right: 1px;
+}
+
+.header-title {
+  padding-top: 3px;
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Noto Sans';
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("icons/white-low-poly-background-2248.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
 .center-text {
   text-align: center;
 }
@@ -14,6 +51,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   background-color: #e5e7eb;
+  /*background-image: linear-gradient(to bottom, #e5e7eb 0%, #e5e7eb 50%, #ffffff 50%, #ffffff 100%);*/
   color: #1a202c;
 }
 
@@ -30,8 +68,7 @@ body {
 }
 
 
-
-/* app block */
+/* pick your apps */
 label {
   display: flex;
   align-items: center;
@@ -70,18 +107,28 @@ label:hover {
 .app-label {
   display: block;
   padding-left: 5px;
-  margin-bottom: 2px; /*LOOK AT THIS*/
+  margin-bottom: 2px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* app block ^*/
+/* pick your apps ^*/
+
+
+
+
+
+/*past form line*/
+.afterhr {
+  /*background-color:#ffffff;*/
+  /*padding-bottom: 400px;*/
+}
 
 
 .round-button {
   width: 181px;
   height: 48px;
-  background-color: #1bd96a;
+  background-color: #22ff84;
   color: black;
   font-size: 16px;
   border: none;
@@ -93,7 +140,7 @@ label:hover {
 }
 
 .round-button:hover {
-  background-color: #22ff84;
+  background-color: #1bd96a;
 }
 
 
@@ -109,8 +156,8 @@ label:hover {
 
 
 .footer {
-  background: linear-gradient(to right, #1bd96a, #023919);
-  color: #fff; /* text */
+  background: linear-gradient(to right, #22ff84 10%, #1bd96a);
+  color: #1a202c; /* text */
   padding: 20px 0;
   position: fixed; /* stays at bottom */
   bottom: 0;
@@ -131,7 +178,7 @@ label:hover {
 }
 
 .footer .footer-link {
-  color: #fff;
+  color: #1a202c;
   text-decoration: none;
   font-size: 18;
 }
