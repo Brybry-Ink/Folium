@@ -33,11 +33,13 @@
 }
 
 .hero {
-  background-image: url("icons/white-low-poly-background-2248.jpeg");
+  background-image: url("icons/white-low-poly-background-2248.jpeg"); /* white poly background source: https://www.fiftysounds.com/free-images/white-low-poly-background-338.html */
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 
@@ -46,13 +48,22 @@
 }
 
 
-body {
+html, body {
   font-family: 'Noto Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   background-color: #e5e7eb;
   /*background-image: linear-gradient(to bottom, #e5e7eb 0%, #e5e7eb 50%, #ffffff 50%, #ffffff 100%);*/
   color: #1a202c;
+
+  display: flex;
+  flex-direction: column;
+  background-image: url("icons/white-low-poly-background-2248.jpeg"); /* white poly background source: https://www.fiftysounds.com/free-images/white-low-poly-background-338.html */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .list-unstyled {
@@ -65,6 +76,7 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  flex: 1;
 }
 
 
@@ -158,7 +170,7 @@ label:hover {
 .footer {
   background: linear-gradient(to right, #22ff84 10%, #1bd96a);
   color: #1a202c; /* text */
-  padding: 20px 0;
+  padding: 12px;
   position: fixed; /* stays at bottom */
   bottom: 0;
   width: 100%;
@@ -174,7 +186,6 @@ label:hover {
 .footer .list {
   list-style: none;
   display: flex;
-  gap: 20px;
 }
 
 .footer .footer-link {
